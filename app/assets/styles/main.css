@@ -1,0 +1,11 @@
+@import 'fonts.css';
+@import 'variables.css';
+@import 'reset.css';
+html{
+    font-size: 10px;
+
+}
+body {
+    font-family: "Satoshi";
+    background:linear-gradient(170deg, var(--gradient-color-top) 0%, var(--gradient-color-bottom) 100%) ;
+}
