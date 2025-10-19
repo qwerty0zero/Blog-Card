@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
     css: ['~/assets/styles/main.css'],
+    app: {
+        baseURL: '/Blog-Card/', // <-- если сайт на корне домена
+    },
     nitro:{
       prerender:{
           routes: generateRoutes()
